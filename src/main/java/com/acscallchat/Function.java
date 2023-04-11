@@ -58,17 +58,5 @@ public class Function {
 
 		}
 
-		/*
-		 * if (body == null) { return
-		 * request.createResponseBuilder(HttpStatus.BAD_REQUEST).
-		 * body("Please pass a name on the query string or in the request body").build()
-		 * ; } else { Participant part = new Participant();
-		 * part.setParticipantId("xyz"); part.setParticipantName(body);
-		 * part.setThreadId("898908097");
-		 * 
-		 * String response = gson.toJson(part); return
-		 * request.createResponseBuilder(HttpStatus.OK).body(response).build(); }
-		 */
-
 	}
 }
